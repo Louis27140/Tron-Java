@@ -10,10 +10,10 @@ import model.element.motionless.MotionlessElementFactory;
 
 public class PlayerBlue extends Mobile{
 	
-	private static Sprite bluemoto_b = new Sprite('3', "bluemoto_b");
-	private static Sprite bluemoto_l = new Sprite('3' ,"bluemoto_l");
-	private static Sprite bluemoto_r = new Sprite('3' ,"bluemoto_r");
-	private static Sprite bluemoto_u = new Sprite('3' ,"bluemoto_u");
+	private static Sprite bluemoto_b = new Sprite(' ', "bluemoto_b");
+	private static Sprite bluemoto_l = new Sprite(' ' ,"bluemoto_l");
+	private static Sprite bluemoto_r = new Sprite(' ' ,"bluemoto_r");
+	private static Sprite bluemoto_u = new Sprite(' ' ,"bluemoto_u");
 	
 	private boolean won = false;
 	
@@ -71,17 +71,5 @@ public class PlayerBlue extends Mobile{
 	
 	public boolean hasWon() {
 		return this.won;
-	}
-
-	@Override
-	public void doNothing() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void shoot() {
-		// TODO Auto-generated method stub
-		
 	}
 }
