@@ -13,18 +13,31 @@ import model.element.motionless.MotionlessElementFactory;
  * 
  * 
  * @author Louis CHOCHOY
+ * @version 1.0
  */
 public class Level extends Observable implements ILevel {
 	
+	/** The width of the window */
 	private final int width = 20;
+	
+	/** The height of the window */
 	private final int height = 12;
+	
 	
 	private IElement[][] onTheLevel;
 	
+	/** Variable to record Position of player Blue*/
 	private Point playerBluePosition;
 	
+	/** Variable to record Position of player Red*/
 	private Point playerRedPosition;
 	
+	/**
+	 * 
+	 * Instantiates a new Level
+	 * 
+	 * @param level
+	 */
 	public Level(int level) {
 		super();
 		
@@ -114,40 +127,46 @@ public class Level extends Observable implements ILevel {
 		
 	}
 	/**
-	 * Gets the character position
-	 * @return getplayerBluePosition
+	 * Gets the player blue position
+	 * @return playerBluePosition
 	 */
 	public Point getPlayerBluePosition() {
 		return this.playerBluePosition;
 	}
 	/**
-	 * Sets the character position
+	 * Sets the player blue position
 	 * @param position
 	 */
 	private void setPlayerBluePosition(Point position) {
 		this.playerBluePosition = position;
 	}
 
+	/**
+	 * Gets the player red position
+	 * @return playerRedPosition
+	 */
 	public Point getPlayerRedPosition() {
-		return playerRedPosition;
+		return this.playerRedPosition;
 	}
 
+	/**
+	 * Sets the player blue position
+	 * @param position
+	 */
 	private void setPlayerRedPosition(Point position) {
 		this.playerRedPosition = position;
 	}
 	
-	public void RecordPartie(final String Winner , final String Loser , final int Time) {
-		try {
-			TronDAO.RecordPartie(Winner, Loser, Time);
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-
+	/**
+	 * 
+	 * call this Methods to record information on the Game
+	 * 
+	 * @param Winner
+	 * @param Loser
+	 * @param Time
+	 */
 	@Override
-	public void recordPartie(String Winner, String Loser, int Time) {
-		// TODO Auto-generated method stub
-		
+	public void RecordPartie(final String Winner , final String Loser , final int Time) {
+		TronDAO.RecordPartie(Winner, Loser, Time);
 	}
 }

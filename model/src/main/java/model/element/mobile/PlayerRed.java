@@ -71,16 +71,4 @@ public class PlayerRed extends Mobile{
 	public boolean hasWon() {
 		return this.won;
 	}
-
-	@Override
-	public void doNothing() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void shoot() {
-		// TODO Auto-generated method stub
-		
-	}
 }

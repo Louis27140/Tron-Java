@@ -33,6 +33,14 @@ public abstract class TronDAO extends AbstractDAO{
         return level;
     }
     
+    /**
+     * 
+     * Record information on the Game in DB.
+     * 
+     * @param Win
+     * @param Lose
+     * @param Timer
+     */
     public static void RecordPartie(final String Win , final String Lose , final int Timer){
     	try {	
     		final CallableStatement callStatement = prepareCall("{call RecordPartie(?, ?, ?)}");

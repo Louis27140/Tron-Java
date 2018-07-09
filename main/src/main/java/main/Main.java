@@ -13,7 +13,7 @@ import view.ViewFacade;
  * <h1>The Class Main.</h1>
  *
  * 
- * @author Louis CHOCHOY, Thomas ISAAC, Valentin CASEN and Adrien LALISSE
+ * @author Louis CHOCHOY
  * @version 1.0
  */
 public abstract class Main {

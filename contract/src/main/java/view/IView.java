@@ -3,8 +3,7 @@ package view;
 /**
  * <h1>The Interface IView.</h1>
  *
- * 
- * @author Louis CHOCHOY, Thomas ISAAC, Valentin CASEN and Adrien LALISSE
+ * @author Louis CHOCHOY
  * @version 1.0
  */
 public interface IView {
@@ -17,6 +16,13 @@ public interface IView {
      */
     void displayMessage(String message);
     
+    /**
+     * 
+     * Display Sprite
+     * 
+     * @param x
+     * @param y
+     */
     void DisplayElement(int x,int y);
     
     

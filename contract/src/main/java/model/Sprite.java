@@ -6,6 +6,14 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+/**
+ * 
+ * <h1>The Interface Sprite.</h1>
+ * 
+ * @author louis
+ *
+ * @version 1.0
+ */
 public class Sprite {
 
 	/** The image. */

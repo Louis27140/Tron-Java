@@ -3,7 +3,13 @@ package model.element.motionless;
 import model.Permeability;
 import model.Sprite;
 import model.element.Element;
-
+/**
+ *  <h1> MotionlessElement <1>
+ * 
+ * @author louis
+ * @version 1.0
+ *
+ */
 abstract class MotionlessElement extends Element {
 
 	/**
