@@ -10,20 +10,20 @@ import model.element.motionless.MotionlessElementFactory;
 
 public class PlayerBlue extends Mobile{
 	
-	private static Sprite bluemoto_b = new Sprite('3', "bluemoto_b");
-	private static Sprite bluemoto_l = new Sprite('3' ,"bluemoto_l");
-	private static Sprite bluemoto_r = new Sprite('3' ,"bluemoto_r");
-	private static Sprite bluemoto_u = new Sprite('3' ,"bluemoto_u");
+	private static Sprite bluemoto_b = new Sprite(' ', "bluemoto_b");
+	private static Sprite bluemoto_l = new Sprite(' ' ,"bluemoto_l");
+	private static Sprite bluemoto_r = new Sprite(' ' ,"bluemoto_r");
+	private static Sprite bluemoto_u = new Sprite(' ' ,"bluemoto_u");
 	
 	private boolean won = false;
 	
 	public PlayerBlue(int x, int y, ILevel level) throws IOException {
 		super(bluemoto_u, Permeability.BLOCKING, level);
 		
-		bluemoto_u.loadImage();
-		bluemoto_r.loadImage();
-		bluemoto_b.loadImage();
-		bluemoto_l.loadImage();
+		//bluemoto_u.loadImage();
+		//bluemoto_r.loadImage();
+		//bluemoto_b.loadImage();
+		//bluemoto_l.loadImage();
 		
 		this.initX(x);
 		this.initY(y);

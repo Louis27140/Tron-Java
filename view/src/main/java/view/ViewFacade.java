@@ -59,8 +59,8 @@ public class ViewFacade implements IView, KeyListener, Runnable {
         this.setLevel(level);
         this.setPlayerBlue(playerblue);
         this.setPlayerRed(playerred);
-        this.getPlayerBlue().getSprite().loadImage();
-        this.getPlayerRed().getSprite().loadImage();
+        //this.getPlayerBlue().getSprite().loadImage();
+        //this.getPlayerRed().getSprite().loadImage();
         this.setFullView(new Rectangle(0, 0, this.getLevel().getWidth(), this.getLevel().getHeight()));
         SwingUtilities.invokeLater(this);
         
