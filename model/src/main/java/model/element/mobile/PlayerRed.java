@@ -9,10 +9,10 @@ import model.element.motionless.MotionlessElementFactory;
 
 public class PlayerRed extends Mobile{
 	
-	private static Sprite redmoto_b = new Sprite(' ', "redmoto_b");
-	private static Sprite redmoto_l = new Sprite(' ' ,"redmoto_l");
-	private static Sprite redmoto_r = new Sprite(' ' ,"redmoto_r");
-	private static Sprite redmoto_u = new Sprite(' ' ,"redmoto_u");
+	private static Sprite redmoto_b = new Sprite('4', "redmoto_b");
+	private static Sprite redmoto_l = new Sprite('4' ,"redmoto_l");
+	private static Sprite redmoto_r = new Sprite('4' ,"redmoto_r");
+	private static Sprite redmoto_u = new Sprite('4' ,"redmoto_u");
 	
 	private boolean won = false;
 	
