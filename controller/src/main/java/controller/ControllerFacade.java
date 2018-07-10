@@ -112,6 +112,7 @@ public class ControllerFacade implements IController, IOrderPerformer {
 			}
 		}
 		if (!this.getModel().getPlayerBlue().isAlive() && !this.getModel().getPlayerRed().isAlive()) {
+			this.getModel().getLevel().RecordPartie("Null", "Null", 100);
 			this.getView().displayMessage("Tied");
 		} else if (!this.getModel().getPlayerBlue().isAlive()) {
 			this.getModel().getLevel().RecordPartie("red", "Blue", 100);

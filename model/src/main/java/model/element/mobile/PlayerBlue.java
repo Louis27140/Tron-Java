@@ -20,10 +20,10 @@ public class PlayerBlue extends Mobile{
 	public PlayerBlue(int x, int y, ILevel level) throws IOException {
 		super(bluemoto_u, Permeability.BLOCKING, level);
 		
-		//bluemoto_u.loadImage();
-		//bluemoto_r.loadImage();
-		//bluemoto_b.loadImage();
-		//bluemoto_l.loadImage();
+		bluemoto_u.loadImage();
+		bluemoto_r.loadImage();
+		bluemoto_b.loadImage();
+		bluemoto_l.loadImage();
 		
 		this.initX(x);
 		this.initY(y);
@@ -71,17 +71,5 @@ public class PlayerBlue extends Mobile{
 	
 	public boolean hasWon() {
 		return this.won;
-	}
-
-	@Override
-	public void doNothing() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void shoot() {
-		// TODO Auto-generated method stub
-		
 	}
 }
