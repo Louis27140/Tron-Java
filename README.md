@@ -1,23 +1,17 @@
-# Lorann-Project
+# Tron-Project
 
-Path to ressources : SQL Script to initialize the database "lorann"	:  .\Lorann-Project\model\src\main\java\model\dao\lorann.sql
-                     Generated Javadoc 								:  .\Lorann-Project\doc
-                     UML Diagrams (Visual Paradigm Project) 	    :  .\Lorann-Project\vpp
+Path to ressources : SQL Script to initialize the database "lorann"	:  .\Tron-Project\tron.sql
+                     Generated Javadoc 					:  .\Tron-Project\target\site\apidocs\index.html
+		     Surefire-report 	(View Test)			:  .\Tron-Project\view\target\site\surefire-report.html				
+                     UML Diagrams (Visual Paradigm Project) 	    	:  .\Tron-Project\Diagram
 
 Sprite correspondence :
 
 ' ' : floor
  0  : bone
- 1  : bone-v
- 2  : bone-h
- 3  : Lorann
- 4  : Monster
- 5  : Purse
- 6  : Gate-c
- 7  : Gate-o
- 8  : Energy-ball
- 9  : Monster 2
- A  : Monster 3
- B  : Monster 4
+ 1  : Wall-Vertical
+ 2  : Wall-Horizontal
+ 3  : Player Blue
+ 4  : Player Red
 
-There's only 5 maps in the database so please choose between 1-5.
+The Map is on a DataBase.
