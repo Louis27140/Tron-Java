@@ -29,7 +29,9 @@ public abstract class MotionlessElementFactory {
 			horizontalwall,
 			verticalwall,
 			rayBlue_Horizontal,
-			rayRed_Horizontal
+			rayBlue_Vertical,
+			rayRed_Horizontal,
+			rayRed_Vertical
 	};
 	
 	/**

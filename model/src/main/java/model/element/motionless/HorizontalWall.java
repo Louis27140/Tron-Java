@@ -12,7 +12,7 @@ import model.Sprite;
 public class HorizontalWall extends MotionlessElement{
 
 	/** The Constant SPRITE. */
-    private static final Sprite SPRITE = new Sprite('2', "blueray_horizontal");
+    private static final Sprite SPRITE = new Sprite('2', "Wall_Horizontal");
     
 	HorizontalWall() {
 		super(SPRITE, Permeability.BLOCKING);
