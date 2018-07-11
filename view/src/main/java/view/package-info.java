@@ -2,7 +2,7 @@
  * Provides all classes for the view component.
  *
  * 
- * @author Louis CHOCHOY, Thomas ISAAC, Valentin CASEN and Adrien LALISSE
+ * @author Louis CHOCHOY
  * @version 1.0
  */
 package view;

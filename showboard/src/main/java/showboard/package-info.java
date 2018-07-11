@@ -1,5 +1,5 @@
 /**
- * @author Louis CHOCHOY, Thomas ISAAC, Valentin CASEN and Adrien LALISSE
+ * @author Louis CHOCHOY
  * @version 3.0
  */
 
